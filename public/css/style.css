@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    line-height: 1.5em;
+    border-radius: 0.25em;
+}
+
+table {
+    line-height: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+td, th {
+    border-bottom: 1px solid black;
+    padding: 0 1em;
+}
+
+table > tr:last-child > td {
+    border-bottom: none;
+}
