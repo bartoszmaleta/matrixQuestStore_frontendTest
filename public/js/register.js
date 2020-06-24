@@ -21,6 +21,4 @@ function setUser(data) {
         });
 }
 
-
-// const data = `name=${this.name.value}&surname=${this.surname.value}&login=${this.login.value}&password=${this.password.value}&email=${this.email.value}&roleId=${this.roleId.value}&avatarPath=${this.avatarPath.value}`;
-// name=Bartosz Maleta&surname=serverS&login=qweasd&password=pass&email=bartosz.maleta@gmail.com&roleId=2&avatarPath=../wwwqw
+// name=zxc&surname=serverS&login=qweasd&password=pass&email=bartosz.maleta@gmail.com&roleId=2&avatarPath=../wwwqw

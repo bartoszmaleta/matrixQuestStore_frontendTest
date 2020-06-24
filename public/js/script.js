@@ -1,7 +1,7 @@
 const container = document.querySelector(".container");
 
 function getUsers() {
-    fetch(`http://localhost:8003/register`)
+    fetch(`http://localhost:8003/users`)
         .then(function (response) {
             return response.json();
         })
