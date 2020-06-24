@@ -12,7 +12,7 @@ function getUsers() {
 
 function innerUsers(users) {
     let table = document.createElement("table");
-    table.innerHTML = "<tr><th><NAME</th><th>SURNAME</th><th>LOGIN</th><th>PASSWORD</th><th>EMAIL</th><th>ROLE_ID</th><th>AVATAR PATH</th></tr>";
+    table.innerHTML = "<tr><th><NAME</th><th>SURNAME</th><th>LOGIN</th><th>PASSWORD</th><th>EMAIL</th><th>ROLE</th><th>AVATAR PATH</th></tr>";
     container.appendChild(table);
 
     users.forEach(user => {
@@ -23,7 +23,7 @@ function innerUsers(users) {
             <td>${user.login}</td>
             <td>${user.password}</td>
             <td>${user.email}</td>
-            <td>${user.roleId}</td>
+            <td>${user.role}</td>
             <td>${user.avatar}</td>
         `;
         table.appendChild(row);

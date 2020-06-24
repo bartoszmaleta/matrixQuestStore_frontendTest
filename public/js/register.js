@@ -3,7 +3,7 @@ const form = document.querySelector("#register-form");
 form.addEventListener('submit', function (e) {
     e.preventDefault();
     //name=Agnieszka&surname=Kowalska&email=a.kowalska%40codecool.com
-    const data = `name=${this.name.value}&surname=${this.surname.value}&login=${this.login.value}&password=${this.password.value}&email=${this.email.value}&roleId=${this.roleId.value}&avatarPath=${this.avatarPath.value}`;
+    const data = `name=${this.name.value}&surname=${this.surname.value}&login=${this.login.value}&password=${this.password.value}&email=${this.email.value}&roleId=${this.role.value}&avatarPath=${this.avatarPath.value}`;
     
     console.log(data);
     setUser(data);
